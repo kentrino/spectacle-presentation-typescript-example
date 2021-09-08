@@ -2,6 +2,7 @@
 
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 
 // Customized babel loader with the minimum we need to get `mdx` libraries
 // working, which unfortunately codegen JSX instead of JS.
@@ -56,6 +57,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Spectacle presentation',
       template: './src/index.html'
-    })
+    }),
+    new NodePolyfillPlugin(),
   ]
 };
