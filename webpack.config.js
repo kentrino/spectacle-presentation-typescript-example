@@ -27,6 +27,9 @@ module.exports = {
     path: path.resolve('dist'),
     filename: 'deck.js'
   },
+  resolve: {
+    extensions: [".js", ".ts", ".tsx"]
+  },
   devtool: 'source-map',
   module: {
     // Not we use `require.resolve` to make sure to use the loader installed
