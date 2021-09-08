@@ -46,10 +46,10 @@ const template = () => (
     width={1}
   >
     <Box padding="0 1em">
-      <FullScreen />
+      <FullScreen color="#FFFFFFF" size={0}/>
     </Box>
     <Box padding="1em">
-      <Progress />
+      <Progress color="#FFFFFFF" size={0}/>
     </Box>
   </FlexBox>
 );
