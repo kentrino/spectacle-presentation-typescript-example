@@ -1,4 +1,10 @@
 declare module "*.md" {
-  const classNames: string
-  export = classNames
+  const md: string
+  export = md
+}
+
+declare module "*.mdx" {
+  const mdx: string
+  export default mdx
+  export const notes: string
 }
