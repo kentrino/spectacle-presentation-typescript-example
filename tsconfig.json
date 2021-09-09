@@ -23,8 +23,8 @@
     "paths": {
       "spectacle": ["./types/spectacle.d.ts"]
     },
-    "rootDir": "./",
-    "baseUrl": "./",
+    "rootDir": "./src",
+    "baseUrl": "./src",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "useDefineForClassFields": true,
