@@ -1,15 +1,24 @@
-import React from 'react';
+import React from "react"
 
-import { MDXProvider } from '@mdx-js/react';
+import { MDXProvider } from "@mdx-js/react"
 
-import { Box, Deck, FlexBox, FullScreen, mdxComponentMap, Notes, Progress, Slide, } from 'spectacle';
+import {
+    Box,
+    Deck,
+    FlexBox,
+    FullScreen,
+    mdxComponentMap,
+    Notes,
+    Progress,
+    Slide,
+} from "spectacle"
 
 // SPECTACLE_CLI_MDX_START
-import slides, { notes } from './slides.mdx';
+import slides, { notes } from "./slides.mdx"
 // SPECTACLE_CLI_MDX_END
 
 // SPECTACLE_CLI_THEME_START
-const theme = {};
+const theme = {}
 // SPECTACLE_CLI_THEME_END
 
 // SPECTACLE_CLI_TEMPLATE_START
@@ -27,7 +36,7 @@ const template = () => (
             <Progress />
         </Box>
     </FlexBox>
-);
+)
 // SPECTACLE_CLI_TEMPLATE_END
 
 const MdxPresentation = () => (
@@ -45,6 +54,6 @@ const MdxPresentation = () => (
                 ))}
         </Deck>
     </MDXProvider>
-);
+)
 
 export default MdxPresentation

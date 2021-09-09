@@ -1,6 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { ExamplePresentation } from "./ExamplePresentation"
+import React from "react"
+import ReactDOM from "react-dom"
 import MdxPresentation from "./MdxPresentation"
 
-ReactDOM.render(<MdxPresentation />, document.getElementById('root'));
+ReactDOM.render(<MdxPresentation />, document.getElementById("root"))
