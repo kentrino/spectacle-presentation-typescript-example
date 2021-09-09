@@ -23,8 +23,8 @@
     "paths": {
       "spectacle": ["./types/spectacle.d.ts"]
     },
-    "rootDir": "./src",
-    "baseUrl": "./src",
+    "rootDir": "./",
+    "baseUrl": "./",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "useDefineForClassFields": true,
@@ -33,12 +33,14 @@
       "./src/types",
       "./node_modules/@types"
     ],
-    "types": [],
+    "types": [
+      "node"
+    ],
     "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
     "jsx": "react"
   },
   "include": [
-    "./src/**/*",
+    "./**/*",
   ],
   "exclude": [
     "dist",

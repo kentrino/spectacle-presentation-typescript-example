@@ -1,6 +1,6 @@
 "use strict"
 
-import * as path from "path"
+import path from "path"
 import HtmlWebpackPlugin from "html-webpack-plugin"
 import NodePolyfillPlugin from "node-polyfill-webpack-plugin"
 
