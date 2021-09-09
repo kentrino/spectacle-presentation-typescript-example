@@ -1,18 +1,8 @@
 import React from 'react';
-import { render } from 'react-dom';
 
 import { MDXProvider } from '@mdx-js/react';
 
-import {
-    Deck,
-    FlexBox,
-    Slide,
-    Box,
-    Progress,
-    FullScreen,
-    Notes,
-    mdxComponentMap
-} from 'spectacle';
+import { Box, Deck, FlexBox, FullScreen, mdxComponentMap, Notes, Progress, Slide, } from 'spectacle';
 
 // SPECTACLE_CLI_MDX_START
 import slides, { notes } from './slides.mdx';
@@ -31,10 +21,10 @@ const template = () => (
         width={1}
     >
         <Box padding="0 1em">
-            <FullScreen color="#FFFFFFF" size={0}/>
+            <FullScreen />
         </Box>
         <Box padding="1em">
-            <Progress color="#FFFFFFF" size={0}/>
+            <Progress />
         </Box>
     </FlexBox>
 );

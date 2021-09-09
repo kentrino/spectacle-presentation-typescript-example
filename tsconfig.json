@@ -20,6 +20,9 @@
       "dom",
       "ESNext"
     ],
+    "paths": {
+      "spectacle": ["./types/spectacle.d.ts"]
+    },
     "rootDir": "./src",
     "baseUrl": "./src",
     "experimentalDecorators": true,

@@ -4,7 +4,8 @@ declare module "*.md" {
 }
 
 declare module "*.mdx" {
-  const mdx: string
-  export default mdx
+  import React from 'react';
+  const slides: React.JSXElementConstructor<any>[]
+  export default slides
   export const notes: string
 }
