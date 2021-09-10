@@ -22,18 +22,12 @@ import {
     MarkdownSlideSet,
     Notes,
 } from "spectacle"
+import theme from "./theme"
+
+import google from "./images/google.png"
 
 const formidableLogo =
     "https://avatars2.githubusercontent.com/u/5078602?s=280&v=4"
-
-// SPECTACLE_CLI_THEME_START
-const theme = {
-    fonts: {
-        header: `"Open Sans Condensed", Helvetica, Arial, sans-serif`,
-        text: `"Open Sans Condensed", Helvetica, Arial, sans-serif"`,
-    },
-}
-// SPECTACLE_CLI_THEME_END
 
 // SPECTACLE_CLI_TEMPLATE_START
 const template = () => (
@@ -83,6 +77,12 @@ export const ExamplePresentation = () => (
                     <li>Lists can make it easier to make points.</li>
                 </ol>
             </Notes>
+        </Slide>
+        <Slide>
+            <FlexBox height="100%">
+                <Image src={google} width={1000} />
+            </FlexBox>
+            <Notes>This is Google's logo.</Notes>
         </Slide>
         <Slide>
             <FlexBox height="100%" flexDirection="column">
