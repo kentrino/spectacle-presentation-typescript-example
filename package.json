@@ -2,7 +2,7 @@
   "name": "spectacle-presentation",
   "version": "0.0.1",
   "description": "Spectacle presentation",
-  "license": "private",
+  "license": " MIT",
   "scripts": {
     "lint": "eslint --ext=ts,tsx,js . --fix",
     "clean": "rimraf dist",
