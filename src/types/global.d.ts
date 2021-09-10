@@ -10,3 +10,13 @@ declare module "*.mdx" {
     export default slides
     export const notes: string
 }
+
+declare module "*.jpg" {
+    const s: string
+    export = s
+}
+
+declare module "*.png" {
+    const s: string
+    export = s
+}
