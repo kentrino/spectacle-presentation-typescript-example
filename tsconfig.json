@@ -21,16 +21,17 @@
       "ESNext"
     ],
     "paths": {
+      "@/*": ["./src/*"],
       "spectacle": ["./types/spectacle.d.ts"]
     },
-    "rootDir": "./src",
-    "baseUrl": "./src",
+    "rootDir": "./",
+    "baseUrl": "./",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "useDefineForClassFields": true,
     "esModuleInterop": true,
     "typeRoots": [
-      "./src/types",
+      "./types",
       "./node_modules/@types"
     ],
     "types": [
@@ -40,7 +41,8 @@
     "jsx": "react"
   },
   "include": [
-    "./**/*",
+    "./src/**/*",
+    "./types/**/*"
   ],
   "exclude": [
     "dist",

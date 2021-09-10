@@ -28,6 +28,9 @@ module.exports = {
         filename: "deck.js",
     },
     resolve: {
+        alias: {
+            "@": path.resolve(__dirname, "src"),
+        },
         extensions: [".js", ".ts", ".tsx"],
     },
     devtool: "source-map",
