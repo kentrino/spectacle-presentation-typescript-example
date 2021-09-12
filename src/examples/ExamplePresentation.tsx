@@ -22,7 +22,7 @@ import {
     MarkdownSlideSet,
     Notes,
 } from "spectacle"
-import theme from "@/theme"
+import theme from "@/examples/theme"
 
 import google from "@/images/google.png"
 

@@ -9,7 +9,7 @@ import {
 } from "spectacle"
 
 // SPECTACLE_CLI_MD_START
-import mdContent from "@/slides.md"
+import mdContent from "@/examples/slides.md"
 // SPECTACLE_CLI_MD_END
 
 // SPECTACLE_CLI_THEME_START

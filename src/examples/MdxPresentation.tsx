@@ -14,7 +14,7 @@ import {
 } from "spectacle"
 
 // SPECTACLE_CLI_MDX_START
-import slides, { notes } from "@/slides.mdx"
+import slides, { notes } from "@/examples/slides.mdx"
 // SPECTACLE_CLI_MDX_END
 
 // SPECTACLE_CLI_THEME_START
