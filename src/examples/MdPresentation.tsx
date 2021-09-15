@@ -25,10 +25,10 @@ const template = () => (
         width={1}
     >
         <Box padding="0 1em">
-            <FullScreen color="#FFFFFFF" size={0} />
+            <FullScreen />
         </Box>
         <Box padding="1em">
-            <Progress color="#FFFFFFF" size={0} />
+            <Progress />
         </Box>
     </FlexBox>
 )
