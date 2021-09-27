@@ -28,6 +28,9 @@ module.exports = {
         filename: "deck.js",
     },
     resolve: {
+        alias: {
+            "@": path.resolve(__dirname, "src"),
+        },
         extensions: [".js", ".ts", ".tsx"],
     },
     devtool: "source-map",
@@ -58,7 +61,7 @@ module.exports = {
     // Default for boilerplate generation.
     plugins: [
         new HtmlWebpackPlugin({
-            title: "Spectacle presentation",
+            title: "Presentation",
             template: "./src/index.html",
         }),
         new NodePolyfillPlugin(),

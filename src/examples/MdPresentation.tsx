@@ -9,7 +9,7 @@ import {
 } from "spectacle"
 
 // SPECTACLE_CLI_MD_START
-import mdContent from "./slides.md"
+import mdContent from "@/examples/slides.md"
 // SPECTACLE_CLI_MD_END
 
 // SPECTACLE_CLI_THEME_START
@@ -25,10 +25,10 @@ const template = () => (
         width={1}
     >
         <Box padding="0 1em">
-            <FullScreen color="#FFFFFFF" size={0} />
+            <FullScreen />
         </Box>
         <Box padding="1em">
-            <Progress color="#FFFFFFF" size={0} />
+            <Progress />
         </Box>
     </FlexBox>
 )

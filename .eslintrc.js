@@ -50,5 +50,5 @@ module.exports = {
             version: "detect",
         },
     },
-    ignorePatterns: ["lib/**/*"],
+    ignorePatterns: ["dist/**/*"],
 }

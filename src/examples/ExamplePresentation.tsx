@@ -22,9 +22,9 @@ import {
     MarkdownSlideSet,
     Notes,
 } from "spectacle"
-import theme from "./theme"
+import theme from "@/examples/theme"
 
-import google from "./images/google.png"
+import google from "@/images/google.png"
 
 const formidableLogo =
     "https://avatars2.githubusercontent.com/u/5078602?s=280&v=4"
