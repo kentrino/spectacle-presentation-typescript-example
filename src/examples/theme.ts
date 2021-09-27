@@ -1,7 +1,7 @@
 const theme = {
     fonts: {
-        header: `"Open Sans Condensed", Helvetica, Arial, sans-serif`,
-        text: `"Open Sans Condensed", Helvetica, Arial, sans-serif`,
+        header: `"Source Sans 3", Helvetica, Arial, sans-serif`,
+        text: `"Source Sans 3", Helvetica, Arial, sans-serif`,
     },
 }
 
