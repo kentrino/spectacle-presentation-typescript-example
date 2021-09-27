@@ -61,7 +61,7 @@ module.exports = {
     // Default for boilerplate generation.
     plugins: [
         new HtmlWebpackPlugin({
-            title: "Spectacle presentation",
+            title: "Presentation",
             template: "./src/index.html",
         }),
         new NodePolyfillPlugin(),
